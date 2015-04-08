@@ -1,0 +1,158 @@
+/*Home section*/
+
+.home-section {
+	background: transparent;
+	position: relative;
+
+}
+
+.video-poster-image {
+	background: url(../../images/home/1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:100%;
+	z-index:0 !important;
+	backface-visibility:hidden;
+	background-position:center center;
+}
+.player{
+	font-size: 1px;
+}
+
+.home-section .inner-section {
+	background: rgba(0,0,0,0.2);
+}
+
+.home-owl .owl-controls .owl-buttons .owl-prev {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	border-radius: 0;
+	background: transparent;
+	opacity: 1;
+	font-family:"new_ciclefina";
+	font-weight: 100;
+	font-size: 100px;
+	transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ie-transform: translateY(-50%);
+}
+
+.home-owl .owl-controls .owl-buttons .owl-next {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	border-radius: 0;
+	background: transparent;
+	opacity: 1;
+	font-family:"new_ciclefina";
+	font-size: 100px;
+	transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ie-transform: translateY(-50%);
+}
+
+
+.home-owl-content .sub-heading span {
+	font-size: 30px;
+	line-height: 37px;
+	font-family: "CrimsonText-Italic";
+	position: relative;
+}
+
+.home-owl-content .sub-heading {
+	position: relative;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.sub-heading-custom-element {
+	height: 1px !important;
+}
+
+.home-owl-content .heading h1 {
+	font-size: 80px;
+	line-height: 87px;
+	font-family: "RalewayHeavy";
+}
+
+.home-owl-content .motto {
+	margin-top: 10px;
+}
+
+.home-owl-content .motto span {
+	font-size: 16px;
+	line-height: 23px;
+	font-family: "RalewayBold"
+}
+
+.home-owl-content .motto span.separator {
+	position: relative;
+	bottom: 4px;
+	margin:0px 5px;
+}
+
+.mouse-icon {
+	display: block;
+	position: absolute;
+	width: 30px;
+	height: 44px;
+	border: 2px solid #fff;
+	border-radius: 15px;
+	bottom: 10%;
+	left: 50%;
+	cursor: pointer;
+	transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ie-transform: translateX(-50%);
+}
+
+.mouse-icon .wheel {
+	position: relative;
+	width: 6px;
+	height: 9px;
+	border-radius: 50%;
+	top: 4px;
+	background: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	/* Chrome, Safari, Opera */
+	-webkit-animation-name:myfirst;
+	-webkit-animation-duration:1s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:0s;
+	-webkit-animation-iteration-count:infinite;
+	
+	-webkit-animation-play-state:running;
+	/* Standard syntax */
+	animation-name:myfirst;
+	animation-duration:1s;
+	animation-timing-function:linear;
+	animation-delay:0s;
+	animation-iteration-count:infinite;
+	
+	animation-play-state:running;
+}
+
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes myfirst
+	{
+	0%   { top:4px;opacity: 0;}
+	30% { top:9px;opacity: 1;}
+	100% { top:25px;opacity: 0;}
+	}
+
+	/* Standard syntax */
+	@keyframes myfirst
+	{
+	0%   { top:4px;opacity: 0;}
+	30% { top:9px;opacity: 1;}
+	100% { top:25px;opacity: 0;}
+	}
