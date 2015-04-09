@@ -9,6 +9,10 @@
 @dark-col-highlight: #797979;
 @light-col-highlight: #A5A0A0;
 
+.page-section.secondary-bg .table-striped>tbody>tr:nth-child(odd)>td, 
+.page-section.secondary-bg .table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #444;
+ }
 
 .page-section.secondary-bg {
 	background: @dark-bg-highlight;
@@ -24,6 +28,10 @@
 
 .page-section.secondary-bg .section-heading h2 {
 	color: @white-highlight;
+}
+
+.page-section.secondary-bg .section-heading h2 {
+  color: @white-highlight;
 }
 
 .section-heading h3 {
@@ -72,6 +80,14 @@
 
 .story-text h3, .services-container .services-owl h3 {
 	color: @black-highlight;
+}
+
+.page-section.secondary-bg .story-text h3, .page-section.secondary-bg .story-text th {
+  color: @white-highlight;
+}
+
+.page-section.secondary-bg .story-text tr {
+  color: @light-col-highlight;
 }
 
 .story-text p, .services-container .services-owl p {
@@ -173,6 +189,10 @@
 	color: @black-highlight;
 }
 
+.secondary-bg .team-pack h2 {
+  color: @white-highlight;
+}
+
 .team-pack h3 {
 	color: @dark-col-highlight;
 }
@@ -188,6 +208,11 @@
 .intermediate-container .subheading h4 {
 	background: @dark-bg-highlight;
 	color: @white-highlight;
+}
+
+.primary-bg .intermediate-container .subheading h4, .primary-bg .intermediate-container .heading h2 {
+  background: none;
+  color: @black-highlight;
 }
 
 .intermediate-container .subheading .divider {
