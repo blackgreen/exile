@@ -129,8 +129,30 @@ $('.large, .large-shadow').velocity({
 });
 </script>
 
-<?php include "includes/masthead.inc"; ?>
+<!-- Sliding Navigation : starts -->
+<nav class="menu" id="sm">
+	<div class="sm-wrap">
+		<i class="icon-remove menu-close"></i>
+		<p class="site-name">EXILE</p>
+		<a class="scroll-link"  href="#welcome">Welcome</a>
+		<a class="scroll-link"  href="#history">the history</a>
+		<a class="scroll-link"  href="#thespecs">the specs</a>
+		<a class="scroll-link"  href="#thecar">the car</a>
+		<a class="scroll-link"  href="#theteam">the team</a>
+		<a class="scroll-link"  href="#contact">contact us</a>		
+	</div>
+	<!-- Navigation Trigger Button -->
+	<div id="sm-trigger"></div>
+</nav>
+<!-- Sliding Navigation : ends -->
 
+<!-- Master Wrap : starts -->
+<section id="mastwrap" class="mast-wrap sliding">
+
+<!-- masthead : starts -->
+<header id="masthead" class="clearfix trans-header">
+</header>
+<!-- masthead : ends -->
 
 <!-- home-section : starts -->
 <section id="home" class="home-section page-section highlight">
@@ -210,7 +232,39 @@ $('.large, .large-shadow').velocity({
 </section>
 <!-- home-section : ends -->
 
-<?php include "includes/mainnav.inc"; ?>
+<!-- Main Navigation-section : starts -->
+<section id="navigation" class="navigation-section page-section secondary-bg">
+	<!-- inner-section : starts -->
+	<section class="inner-section">
+		<!-- container : starts -->
+		<section class="container">
+			<div class="row">
+				<article class="col-md-12 text-center">
+					<div class="navigation-container">
+						<div class="navigation-left">
+							<ul>
+								<li><a id="home-linker" class="nav-active scroll-link" href="#home">welcome</a></li>
+								<li><a id="thehistory-linker" class="scroll-link" href="#thehistory">the history</a></li>
+								<li><a id="thespecs-linker" class="scroll-link" href="#thespecs">the specs</a></li>
+							</ul>
+						</div>
+						<div class="site-title text-center">EXILE AUTOMOTIVE</div>
+						<div class="navigation-right">
+							<ul>
+								<li><a id="thecar-linker" class="scroll-link" href="#thecar">the details</a></li>
+								<li><a id="theteam-linker" class="scroll-link" href="#theteam">the team</a></li>
+								<li><a id="contact-linker" class="scroll-link" href="#contact">contact us</a></li>
+							</ul>
+						</div>
+					</div>	
+				</article>
+			</div>
+		</section>
+		<!-- container : ends -->
+	</section>
+	<!-- inner-section : ends -->
+</section>
+<!-- Main Navigation-section : ends -->
 
 <!-- story-section : starts -->
 <section id="story" class="story-section page-section add-bottom primary-bg">
@@ -309,7 +363,7 @@ $('.large, .large-shadow').velocity({
 		<section class="container">
 			<div class="row">
 				<article class="col-md-12 text-center">
-					<a class="btn btn-andy-light scroll-link" href="exilehistory.html"><span>The History of Exile</span></a>
+					<a class="btn btn-andy-light scroll-link" href="#thehistory"><span>The History of Exile</span></a>
 				</article>
 			</div>
 		</section>
@@ -318,6 +372,336 @@ $('.large, .large-shadow').velocity({
 	<!-- inner-section : ends -->
 </section>
 <!-- story-section : ends -->
+
+<?php include "includes/quote1.inc"; ?>
+
+<!-- story-section : starts -->
+<section id="thehistory" class="story-section page-section add-top add-bottom primary-bg">
+	<!-- inner-section : starts -->
+	<section class="inner-section">
+		<!-- container : starts -->
+		<section class="container">
+			<div class="row">
+				<article class="col-md-12 text-center">
+					<div class="section-heading">
+						<h2>The history of Exile's L1</h2>
+						<div class="section-separator"></div>
+						<h3>The Exile L1 has many unique design features which are the result of 3 years of development work to redesign the sports car as we know it today.</h3>
+					</div>
+				</article>
+			</div>
+		</section>
+		<!-- container : ends -->
+	</section>
+	<!-- inner-section : ends -->
+	<!-- inner-section : starts -->
+	<section class="inner-section">
+		<!-- container : starts -->
+		<section class="container">
+			<div class="row vertical-align">
+				<article class="col-md-8 text-left">
+					<div class="story-text text-left add-margin-top-half">
+						<h3>The Passion of One Man</h3><small><i>Lee Noble</i></small>
+						<p style="padding: 12px 12px 0px 0px !important">
+							Lee has been described as one of the most talented car designers of the modern generation. His history of iconic cars goes back from the original Ultima, through Ascari to latterly the company that bears his name, Noble Automotive. Having left
+							Noble Automotive some 5 years ago Lee has been working on many individual design projects, but three years ago made the decision that it was time for a new car that once again bears his name.
+						<p style="padding: 12px 12px 0px 0px !important">
+								Originally concieved as a track focused car, the design has evolved over the last three years to one of the most exciting cars available today. Not only is it incredibly fast, but the superlative handling which is the tradmark of Lee (
+								often cited by illuminaries such as Jeremey Clarkson as being the finest available full stop) has been moved up to another level.
+						<p style="padding: 12px 12px 0px 0px !important">But it doesn't just stop there. Many of the compromises that Lee had to grapple with in terms of weight, design and structural rigidity in his previous designs have been overcome with some truly
+							groundbreaking designs and features that make the Exile L1 <strong>THE</strong> car that will define the road/track sportscar for the coming generation of car enthusiasts.						
+					</div>
+				</article>
+				<article class="col-md-4 vertical-align">
+					<img src="http://4.bp.blogspot.com/_NXh9SjzhUY0/TK4M8O2b4cI/AAAAAAAAAc8/8akoA7rY3to/s1600/LEE+noble.png" height="100%" width="100%">
+				</article>
+			</div>
+			<div class="row">
+				<article class="col-md-12 text-center add-margin-top-half">
+					<div class="section-heading">
+						<h2>Lee's Unique Approach</h2>
+					</div>
+				</article>
+				<article class="col-md-6 text-center">
+					<div class="story-text text-center add-min-top-half">
+						<h3>No doors</h3><small><i>Smart, light, rigid</i></small>
+						<p>
+							It may seem a strange thing to do, but the doors in a sports car have always been a serious compromise. Having a large hole in each side of the car compromises the torsional rigidity of the car.<p>
+								This is why so many race-cars either have no door (open top) or have a very small opening (closed top). However, just following this doesn't give you a car that you can use on the road sensibly,
+								so Exile has designed a unique approach to solving the access problem which increasing the torsional rigidity overall. 
+						</p>
+						
+					</div>
+				</article>
+
+				<article class="col-md-6 text-center">
+					<div class="story-text text-center add-min-top-half">
+						<h3>Removable windows and roof</h3><small><i>Smart, light, clever</i></small>
+						<p>The side windows and roof are fully removable and can be stored inside the car. This means that not only can you have "wind in your hair" motoring on a lovely summers day on the road, but on track
+							you can just leave the roof and windows in the pits and experience even better handling and performance from the removal of a significant amount of weight. These same windows and roof panels are the key to easy
+							access into the car. 
+							<p>Because they hinge out of the way you can just open the side window and roof, step on the purpose designed sill and easily step into the car, sliding straight into your seat and closing
+							both window and roof whilst seated. Easy access, intelligent design.
+						<p>
+					</div>
+				</article>
+
+ 
+				<article class="col-md-6 text-center">
+					<div class="story-text text-center add-min-top-half">
+						<h3>Composite Tub Structure</h3><small><i>Smart, light, inexpensive</i></small>
+						<p>We have taken some of the best technologies from the world of aerospace and race cars and applied them to a car that is aimed for both the road and track. The chassis is a unique design never before seen on
+							a low volume production sports car. Firstly a superstructure spaceframe is created and then a central tub is created out of aluminium honeycomb - the same stuff used to build jet airplanes due to it's exceptional 
+							lightness but incredible strenght. <p>The tub is riveted, glued and bonded (not welded) for incredible strength and crash protection. Front and rear are seaparate subframes that are designed for easy servicing and access. 
+						</p>
+					</div>
+				</article>
+
+				<article class="col-md-6 text-center">
+					<div class="story-text text-center add-min-top-half">
+						<h3>Carbon or GRP Body</h3><small><i>Choice of weigth and cost</i></small>
+						<p>Due to our exceptionally advanced moudling techniques we have been able to create a world first for a low volume sports car, the choice at production time of either a GRP or carbon body structure. As none of the body parts
+							are structural this doesn't affect handling or crash performance, but it gives the customer complete choice over the price point and end weight of their completed car. <p>For the serious owner perhaps racing the car in
+							weigth limited series we offer the choice of panel-by-panel choosing the material used so the balance and overall weight of the car can be set.
+						</p>
+					</div>
+				</article>
+
+				<article class="col-md-6 text-center">
+					<div class="story-text text-center add-min-top-half">
+						<h3>Add lightness</h3><small><i>Remove and redesign for lightness</i></small>
+						<p>Today's modern cars keep on getting heavier due to the addition of some many assistances and comforts. We have taken a different approach by removing things like power steering and air conditioning, but then redesigning things
+							to mean that you really don't miss them. The steering is still light and easy to use, even at parking speeds, due to the front suspension design and the weight distribution, and if you want to be nice and cool just open the window or
+							roof and the atttention to detail of keeping hot fliuds and air away from the cockpit means you never get too hot.
+						</p>
+					</div>
+				</article>
+
+
+			</div>
+		</section>
+		<!-- container : ends -->
+	</section>
+	<!-- inner-section : ends -->
+	<!-- inner-section : starts -->
+	<section class="inner-section add-min-top-half">
+		<!-- container : starts -->
+		<section class="container">
+			<div class="row">
+				<article class="col-md-12 text-center">
+					<a class="btn btn-andy-light scroll-link" href="#thespecs"><span>Find out more</span></a>
+				</article>
+			</div>
+		</section>
+		<!-- container : ends -->
+	</section>
+	<!-- inner-section : ends -->
+</section>
+<!-- story-section : ends -->
+
+<!-- works-section : starts -->
+<section id="developmentgallery" class="page-section add-top add-bottom secondary-bg highlight">
+
+	<!-- inner-section : starts -->
+	<section class="inner-section">
+		<!-- container : starts -->
+		<section class="container">
+			<div class="row">
+				<article class="col-md-12 text-center">
+					<div class="section-heading">
+						<h2>Development Gallery</h2>
+						<div class="section-separator"></div>
+						<h3>Click on the year to filter</h3>
+					</div>
+				</article>
+			</div>
+		</section>
+		<!-- container : ends -->
+	</section>
+	<!-- inner-section : ends -->
+
+	<!-- inner-section : starts -->
+	<section class="inner-section add-min-top-half">
+
+		<!-- Portfolio content section Do not delete-->
+		<div class="works-content-container"></div>
+		
+	</section>
+	<!-- inner-section : ends -->
+
+	<!-- inner-section : starts -->
+	<section class="inner-section">
+		<!-- container : starts -->
+		<section class="container">
+			<div class="row">
+				<article class="col-md-12">
+					
+					<!-- Mixitup -->
+					<div class="works-gallery">
+						<div class="category text-center add-min-bottom-half">
+							<div class="filter" data-filter="all">all</div>
+							<div class="filter" data-filter="2015">2015</div>
+							<div class="filter" data-filter="2014">2014</div>	
+							<div class="filter" data-filter="2013">2013</div>
+						</div>		
+
+						<div id="Grid">
+							<div class="custom-works-center">
+
+								<!-- 1st slide -->
+								<div class="mix 2013">
+									<div class="works-item">
+										<a href="projects/engine.html" class="more_info">
+											<img class="img-responsive" src="http://placehold.it/800X800" alt="andy" title="andy">
+											<div class="hover-hidden-content">
+												<h1>Inital Open Top Study</h1>
+												<h2>2013</h2>
+												<div class="type">
+													<p>More</p>
+												</div>
+												
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!-- 2nd slide -->
+								<div class="mix 2013">
+									<div class="works-item">
+										<a href="projects/enginevideo.html" class="more_info">
+											<img class="img-responsive" src="http://placehold.it/800X800" alt="andy" title="andy">
+											<div class="hover-hidden-content">
+												<h1>First Closed Design</h1>
+												<h2>2013</h2>
+												<div class="type">
+													<p>More</p>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!-- 3rd slide -->
+								<div class="mix 2013">
+									<div class="works-item">
+										<a href="projects/project-vimeo.html" class="more_info">
+											<img class="img-responsive" src="http://placehold.it/800X800" alt="andy" title="andy">
+											<div class="hover-hidden-content">
+												<h1>Second Closed Design</h1>
+												<h2>2013</h2>
+												<div class="type">
+													<p>More</p>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!-- 4th slide -->
+								<div class="mix 2014">
+									<div class="works-item">
+										<a href="projects/project-slider.html" class="more_info">
+											<img class="img-responsive" src="http://placehold.it/800X800" alt="andy" title="andy">
+											<div class="hover-hidden-content">
+												<h1>2.8l 350bhp Development Version</h1>
+												<h2>2014</h2>
+												<div class="type">
+													<p>slider</p>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!-- 5th slide -->
+								<div class="mix 2014">
+									<div class="works-item">
+										<a href="projects/project-youtube.html" class="more_info">
+											<img class="img-responsive" src="http://placehold.it/800X800" alt="andy" title="andy">
+											<div class="hover-hidden-content">
+												<h1>Track Testing</h1>
+												<h2>2014</h2>
+												<div class="type">
+													<p>youtube</p>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!-- 6th slide -->
+								<div class="mix 2014">
+									<div class="works-item">
+										<a href="projects/project-vimeo.html" class="more_info">
+											<img class="img-responsive" src="http://placehold.it/800X800" alt="andy" title="andy">
+											<div class="hover-hidden-content">
+												<h1>Post testing modification</h1>
+												<h2>2014</h2>
+												<div class="type">
+													<p>vimeo</p>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="mix 2014">
+									<div class="works-item">
+										<a href="projects/project-vimeo.html" class="more_info">
+											<img class="img-responsive" src="http://placehold.it/800X800" alt="andy" title="andy">
+											<div class="hover-hidden-content">
+												<h1>Carbon Body</h1>
+												<h2>2014</h2>
+												<div class="type">
+													<p>vimeo</p>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="mix 2014">
+									<div class="works-item">
+										<a href="projects/project-vimeo.html" class="more_info">
+											<img class="img-responsive" src="http://placehold.it/800X800" alt="andy" title="andy">
+											<div class="hover-hidden-content">
+												<h1>New Power Plant</h1>
+												<h2>2014</h2>
+												<div class="type">
+													<p>vimeo</p>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="mix 2015">
+									<div class="works-item">
+										<a href="projects/project-vimeo.html" class="more_info">
+											<img class="img-responsive" src="http://placehold.it/800X800" alt="andy" title="andy">
+											<div class="hover-hidden-content">
+												<h1>Completed 1st Prototype</h1>
+												<h2>2015</h2>
+												<div class="type">
+													<p>vimeo</p>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+
+				</article>
+			</div>
+		</section>
+		<!-- container : ends -->
+	</section>
+	<!-- inner-section : ends -->
+</section>
+<?php include "includes/quote1.inc"; ?>
 
 <!-- story-section : starts -->
 <section id="thespecs" class="story-section page-section add-top add-bottom secondary-bg">
@@ -655,61 +1039,6 @@ $('.large, .large-shadow').velocity({
 	<!-- inner-section : ends -->
 </section>
 <!-- story-section : ends -->
-
-<!-- quote-section : starts -->
-<section id="quote" class="quote-section page-section add-top add-bottom parallax-slide-01">
-	<!-- inner-section : starts -->
-	<section class="inner-section">
-		<!-- container : starts -->
-		<section class="container">
-			<div class="row">
-				<article class="col-md-12 text-center">
-					<div class="quote-container">
-
-						<div id="quote-owl-demo" class="quote-owl">
-						    <div class="item">
-						    	<div class="row">
-						    		<article class="col-md-8 col-md-offset-2">
-						    			<h3>The car is like nothing I have ever driven before, and I've driven everything this side of £500k. Just astonishing</h3>
-						    			<p>Justin Fielder, CEO</p>
-						    		</article>
-						    	</div>
-						    </div>
-						    <div class="item">
-						    	<div class="row">
-						    		<article class="col-md-8 col-md-offset-2">
-						    			<h3>This really is the best car I have ever designed. Not only does it excel on track, finally I have cracked the road manners</h3>
-						    			<p>Lee Noble</p>
-						    		</article>
-						    	</div>
-						    </div>
-						    <div class="item">
-						    	<div class="row">
-						    		<article class="col-md-8 col-md-offset-2">
-						    			<h3>And it absolutly will not understeer, the is just tonnes and tonnes of grip.</h3>
-						    			<p>Jeremey Clarkson - M12 reveiew</p>
-						    		</article>
-						    	</div>
-						    </div>
-						    <div class="item">
-						    	<div class="row">
-						    		<article class="col-md-8 col-md-offset-2">
-						    			<h3>Lee Noble's track record is good as it gets, having penned a string of the world’s best-handling and fastest accelerating supercars</h3>
-						    			<p>Jack Martin - GizMag</p>
-						    		</article>
-						    	</div>
-						    </div>
-						</div>
-					
-					</div>
-				</article>
-			</div>
-		</section>
-		<!-- container : ends -->
-	</section>
-	<!-- inner-section : ends -->
-</section>
-<!-- quote-section : ends -->
 
 <!-- services-section : starts -->
 <section id="thecar" class="page-section add-top add-bottom primary-bg highlight">

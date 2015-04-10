@@ -1,7 +1,6 @@
 <!-- Sliding Navigation : starts -->
 <nav class="menu" id="sm">
 	<div class="sm-wrap">
-
 		<i class="icon-remove menu-close"></i>
 		<p class="site-name">EXILE</p>
 		<a class="scroll-link"  href="index.html#home">Home</a>
@@ -18,9 +17,6 @@
 
 <!-- Master Wrap : starts -->
 <section id="mastwrap" class="mast-wrap sliding">
-
-
-
 
 <!-- masthead : starts -->
 <header id="masthead" class="clearfix trans-header">
