@@ -4,19 +4,74 @@
      left: 0;
      right: 0;
      bottom: 0;
-     background-color: #fefefe;
+     background-color: rgba(0, 0, 0, 0.85);;
      z-index: 99;
-    height: 100%;
+    height: 100vh !important;
 }
 
-#my-preloader-animation  {
-     width: 200px;
-     height: 200px;
-     position: absolute;
-     left: 50%;
-     top: 2%;
-     background-image: url(../images/preloaders/487.gif);
-     background-repeat: no-repeat;
-     background-position: center;
-     margin: -100px 0 0 -100px;
+#my-preloader-animation {
+  width: 10%;
+  margin-left: 45%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.machine {
+  width: 60vmin;
+  fill: #13e1ff; }
+
+.small-shadow, .medium-shadow, .large-shadow {
+  fill: rgba(0, 0, 0, 0.1); }
+
+.small {
+  -webkit-transform-origin: 100.136px 225.345px;
+      -ms-transform-origin: 100.136px 225.345px;
+          transform-origin: 100.136px 225.345px; }
+
+.small-shadow {
+  -webkit-transform-origin: 110.136px 235.345px;
+      -ms-transform-origin: 110.136px 235.345px;
+          transform-origin: 110.136px 235.345px; }
+
+.medium {
+  -webkit-transform-origin: 254.675px 379.447px;
+      -ms-transform-origin: 254.675px 379.447px;
+          transform-origin: 254.675px 379.447px; }
+
+.medium-shadow {
+  -webkit-transform-origin: 264.675px 389.447px;
+      -ms-transform-origin: 264.675px 389.447px;
+          transform-origin: 264.675px 389.447px; }
+
+.large {
+  -webkit-transform-origin: 461.37px 173.694px;
+      -ms-transform-origin: 461.37px 173.694px;
+          transform-origin: 461.37px 173.694px; }
+
+.large-shadow {
+  -webkit-transform-origin: 471.37px 183.694px;
+      -ms-transform-origin: 471.37px 183.694px;
+          transform-origin: 471.37px 183.694px; }
+          
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Optional, to align inner items 
+                              horizontally inside the column */
 }

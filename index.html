@@ -129,36 +129,7 @@ $('.large, .large-shadow').velocity({
 });
 </script>
 
-<!-- Sliding Navigation : starts -->
-<nav class="menu" id="sm">
-	<div class="sm-wrap">
-
-		<i class="icon-remove menu-close"></i>
-		<p class="site-name">EXILE</p>
-		<a class="scroll-link"  href="#home">Home</a>
-		<a class="scroll-link"  href="#thecar">the Car</a>
-		<a class="scroll-link"  href="#thespecs">the specs</a>
-		<a class="scroll-link"  href="#therange">the range</a>
-		<a class="scroll-link"  href="#theteam">the team</a>
-		<a class="scroll-link"  href="#contact">contact us</a>		
-	</div>
-	<!-- Navigation Trigger Button -->
-	<div id="sm-trigger"></div>
-</nav>
-<!-- Sliding Navigation : ends -->
-
-<!-- Master Wrap : starts -->
-<section id="mastwrap" class="mast-wrap sliding">
-
-
-
-
-<!-- masthead : starts -->
-<header id="masthead" class="clearfix trans-header">
-</header>
-<!-- masthead : ends -->
-
-
+<?php include "includes/masthead.inc"; ?>
 
 
 <!-- home-section : starts -->
@@ -239,44 +210,14 @@ $('.large, .large-shadow').velocity({
 </section>
 <!-- home-section : ends -->
 
-<!-- Main Navigation-section : starts -->
-<section id="navigation" class="navigation-section page-section secondary-bg">
-	<!-- inner-section : starts -->
-	<section class="inner-section">
-		<!-- container : starts -->
-		<section class="container">
-			<div class="row">
-				<article class="col-md-12 text-center">
-					<div class="navigation-container">
-						<div class="navigation-left">
-							<ul>
-								<li><a id="home-linker" class="nav-active scroll-link" href="#home">home</a></li>
-								<li><a id="services-linker" class="scroll-link" href="#thecar">the car</a></li>
-								<li><a id="works-linker" class="scroll-link" href="#thespecs">the specs</a></li>
-							</ul>
-						</div>
-						<div class="site-title text-center">EXILE AUTOMOTIVE</div>
-						<div class="navigation-right">
-							<ul>
-								<li><a id="team-linker" class="scroll-link" href="#therange">the range</a></li>
-								<li><a id="team-linker" class="scroll-link" href="#theteam">the team</a></li>
-								<li><a id="contact-linker" class="scroll-link" href="#contact">contact us</a></li>
-							</ul>
-						</div>
-					</div>	
-				</article>
-			</div>
-		</section>
-		<!-- container : ends -->
-	</section>
-	<!-- inner-section : ends -->
-</section>
-<!-- Main Navigation-section : ends -->
+<?php include "includes/mainnav.inc"; ?>
 
 <!-- story-section : starts -->
-<section id="story" class="story-section page-section add-top add-bottom primary-bg">
+<section id="story" class="story-section page-section add-bottom primary-bg">
+	<img src="images/external/car-on-road.jpg" width="100%"></img>
+	
 	<!-- inner-section : starts -->
-	<section class="inner-section">
+	<section class="inner-section add-top-half">
 		<!-- container : starts -->
 		<section class="container">
 			<div class="row">
@@ -368,7 +309,7 @@ $('.large, .large-shadow').velocity({
 		<section class="container">
 			<div class="row">
 				<article class="col-md-12 text-center">
-					<a class="btn btn-andy-light scroll-link" href="#thespecs"><span>Find out more</span></a>
+					<a class="btn btn-andy-light scroll-link" href="exilehistory.html"><span>The History of Exile</span></a>
 				</article>
 			</div>
 		</section>
@@ -1147,7 +1088,7 @@ $('.large, .large-shadow').velocity({
 <!-- pricing-section : ends -->
 
 <!-- team-section : starts -->
-<section id="team" class="team-section page-section add-top add-bottom secondary-bg">
+<section id="theteam" class="team-section page-section add-top add-bottom secondary-bg">
 	<!-- inner-section : starts -->
 	<section class="inner-section">
 		<!-- container : starts -->
