@@ -46,11 +46,12 @@ $(function ($) {
 
     
         $(".home-owl").owlCarousel({
-          autoPlay: 5000, //Set AutoPlay to 5 seconds
+          autoPlay: 6000, //Set AutoPlay to 10 seconds
+		  paginationSpeed : 1500,
           autoHeight : true,
           singleItem:true,
           pagination: false,
-          navigation : true,
+          navigation : false,
           navigationText : ["<",">"],
           items : 1,
           itemsDesktop : [1199,4],
